@@ -1,0 +1,69 @@
+
+#servico{
+    background-color: #fff;
+}
+
+.card-image img{
+    max-width: 100%;
+}
+
+.services{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.services .card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    background-color: #232323;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 0 40px;
+    margin-top: 90px;
+}
+
+
+.services .card::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1bbfe9;
+    clip-path: circle(10px at 80% 20%);
+    transition: .5s ease-in-out;
+}
+
+.services .card .card-content_box {
+    position: absolute;
+    top: 60%;
+    left: 2%;
+    width: 100%;
+    color: #fff;
+}
+
+.services .card .img_box{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+
+.services .card .img_box img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    width: 100%; 
+}
+

@@ -1,0 +1,71 @@
+nav .menu .logo {
+    color: #fff;
+}
+
+.center .title{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.center .sub_title{
+    color: #fff;
+    font-size: 52px;
+    font-weight: 600;
+    }
+
+#servico .card-description h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.services .card .card-content_box h3 {
+    font-size: 40px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.services .card .card-content_box p {
+    padding: 8px;
+}
+
+#contato .contato-title h2 {
+    margin-top: 190px;
+  
+}
+
+#sobre .sobre-container h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#sobre .sobre-container p{
+    text-align: justify;
+}
+
+.footer-container ul li{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+#footer ul span{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+

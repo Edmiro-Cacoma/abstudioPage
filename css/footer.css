@@ -1,0 +1,32 @@
+#footer {
+    background-color: #000;
+    color: #fff;
+    margin-top: 50px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    height: 300px;
+   
+}
+
+.footer-container ul {
+    padding: 10px;
+    margin: 30px;
+}
+
+
+.footer-container ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.footer-container ul li i{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+

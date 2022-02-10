@@ -1,0 +1,69 @@
+.img {
+    background: url(/imagens/img3.jpg) no-repeat;
+   
+    height: 100vh;
+    width: 100%;
+    background-position: center top;
+    background-size: cover;
+    position: relative;
+}
+
+.img::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.center {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    padding: 0 20px;
+    text-align: center;
+}
+
+.center .btns {
+    margin-top: 20px;
+}
+
+.center .btns button {
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid #fff;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.center .btns button:first-child:hover {
+    background: #fff;
+    color: #000;
+}
+
+.center .btns button a {
+    text-decoration: none;
+}
+
+.center .btn-more {
+    background-color: transparent;
+}
+
+.center .btn-more a {
+    color: #fff;
+}
+
+.center .btn-more a:hover {
+    color: #000;
+}
+
+.center .btn-subscribe a {
+    color: #000;
+}
