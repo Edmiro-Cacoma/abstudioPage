@@ -1,1 +1,1 @@
-# abstudioPage Este e um projeto feito com HTML CS.
+# abstudioPage Este e um projeto feito com HTML CSS.
